@@ -5,9 +5,9 @@ class Supermart{
 	private:
 		int number ;
 		char name[100];
-		int quantity=0;
-		int price=0;
-		int discount=0;
+		int quantity;
+		int price;
+		int discount;
 
 
 	public:
