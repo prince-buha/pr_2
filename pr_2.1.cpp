@@ -1,21 +1,21 @@
-#includem<iostrea>
+#include<iostream>
 using namespace std;
 
-class raliway{
+class Raliway{
 	private :
-		 char name;
-		 char sourse;
-		 char Destination;
+		 char name[100];
+		 char sourse[100];
+		 char Destination[100];
 		 int time;
 	public :
 		setdata(){
-		cout<<"enter your name";
+		cout<<"enter your name:-";
 		cin>>name;
-		cout<<"enter your railway sourse";
+		cout<<"enter your railway sourse:-";
 		cin>>sourse;
-		cout<<"enter your raliway destination";
-		cin>>destination;
-		cout<<"enter your  raliway time";
+		cout<<"enter your raliway destination:-";
+		cin>>Destination;
+		cout<<"enter your  raliway time:-";
 		cin>>time;
 	}
 		getdata(){
@@ -25,13 +25,13 @@ class raliway{
 		
 		
 };
-int main(){
-	int main (){
-	Railway r;
+int main (){
+	Raliway r;
 	r.setdata();
 	r.getdata();
 	return 0;
 }
 	
+
 	
-}
+	
